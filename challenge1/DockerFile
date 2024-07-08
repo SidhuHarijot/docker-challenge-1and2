@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy the contents of the 'public' folder to the NGINX html directory
-COPY public /usr/share/nginx/html
+COPY Public /usr/share/nginx/html
 
 # Expose port 80 to access the server
 EXPOSE 80
